@@ -1,0 +1,28 @@
+{
+  "version": "0.1.5",
+  "manifest_version": 2,
+  "short_name": "who-am-i",
+  "name": "WHO AM I",
+  "background": {
+      "page": "lib/chrome/background.html"
+  },
+  "permissions": [
+      "*://*/*",
+      "storage",
+      "contextMenus",
+      "webNavigation"
+  ],
+  "description": "Easily change your timezone and userAgent to a desired value.",
+  "options_ui": {
+      "open_in_tab": true,
+      "chrome_style": true,
+      "page": "data/options/options.html"
+  },
+  "browser_action": {
+      "default_title": "WHO AM I",
+      "default_icon": {
+      }
+  },
+  "icons": {
+  }
+}
